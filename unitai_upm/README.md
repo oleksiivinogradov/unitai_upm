@@ -27,13 +27,8 @@ AI-powered assistant for the Unity Editor, providing code generation, chat, and 
    - Click the **"+"** button and select **"Add package from git URL..."**
    - Enter the GitHub URL with the correct path and tag, e.g.:
      ```
-     https://github.com/yourusername/your-repo.git?path=upm_package_dll_debug_fixed#1.0.0
+     https://github.com/oleksiivinogradov/unitai_upm.git?path=unitai_upm#1.0.0
      ```
-   - Or, download and copy the `upm_package_dll_debug_fixed` folder into your project's `Packages/` directory.
-
-2. **Manual Installation:**
-   - Copy the `upm_package_dll_debug_fixed` folder into your Unity project's `Packages/` directory.
-   - Or, add it to `Assets/` for DLL-only usage.
 
 ## Usage
 
