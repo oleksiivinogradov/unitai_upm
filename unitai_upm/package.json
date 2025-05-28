@@ -1,0 +1,24 @@
+{
+  "name": "net.unitai.unity_package",
+  "version": "1.0.0",
+  "displayName": "UnitAI",
+  "description": "AI-powered assistant for Unity Editor.",
+  "unity": "6000.1",
+  "unityRelease": "2f1",
+  "documentationUrl": "https://UnitAI.net",
+  "changelogUrl": "https://UnitAI.net/CHANGELOG.md",
+  "licensesUrl": "https://UnitAI.net/LICENSE",
+  "dependencies": {},
+  "keywords": [
+    "ai",
+    "editor",
+    "assistant",
+    "llm",
+    "codegeneration"
+  ],
+  "author": {
+    "name": "UnitAI Inc",
+    "email": "alex@unitai.net",
+    "url": "https://unitai.net"
+  }
+} 
