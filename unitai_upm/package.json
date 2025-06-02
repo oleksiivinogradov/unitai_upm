@@ -1,6 +1,6 @@
 {
   "name": "net.unitai.unity_package",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "displayName": "UnitAI",
   "description": "AI-powered assistant for Unity Editor.",
   "unity": "2019.4",
