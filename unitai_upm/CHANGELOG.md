@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1] - 2025-01-27
+
+### Fixed
+- **Unity Package Meta Files**: Fixed missing .meta file for CHANGELOG.md in Unity packages
+
 ## [1.1.0] - 2025-06-26
 
 ### Added
