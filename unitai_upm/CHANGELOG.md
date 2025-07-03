@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.2] - 2025-07-03
+
+### Added
+- **Enhanced Click Functionality**: Improved clickable elements and interaction handling throughout the UI
+- **Advanced Object Management**: Enhanced support for GameObject operations and component handling
+- **Improved File Operations**: Better file creation, modification, and management capabilities
+- **Enhanced Chat Interface**: Improved chat functionality with better message handling and display
+- **Debug Logging Utilities**: Added comprehensive debug logging tools and comment utilities for development
+
+### Changed
+- **Major UI Improvements**: Significant enhancements to user interface responsiveness and visual feedback
+- **Enhanced Model Interface**: Complete redesign of AI model interaction system with improved reliability
+- **Optimized Performance**: Major performance improvements in UI rendering and model communication
+- **Improved Font Handling**: Better font loading and rendering system with enhanced compatibility
+- **Enhanced Image Display**: Improved image visibility and rendering capabilities
+- **Streamlined Configuration**: Simplified configuration management and settings persistence
+
+### Fixed
+- **Chat Message Processing**: Resolved issues with chat message display and formatting
+- **File Creation Bugs**: Fixed various file creation and modification edge cases
+- **UI Responsiveness**: Addressed lag and rendering issues in the editor interface
+- **Model Communication**: Fixed reliability issues in AI model API communications
+- **Memory Management**: Improved memory usage and reduced memory leaks
+- **Click Event Handling**: Fixed various click and interaction event processing issues
+
+### Technical Improvements
+- Enhanced project indexing service with better performance
+- Improved error handling and recovery mechanisms
+- Better Unity compatibility across different versions
+- Reduced debug log overhead for production builds
+- Enhanced code organization and maintainability
+
 ## [1.1.1] - 2025-01-27
 
 ### Fixed
