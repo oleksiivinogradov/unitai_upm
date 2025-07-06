@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.3] - 2025-07-05
+
+### Added
+- **Enhanced Console Logging System**: Complete overhaul of logging infrastructure with new classes for better debug information and log management
+- **Advanced UI Helper Functions**: New utility functions for improved UI management and better code organization
+- **Directory Creation Improvements**: Enhanced directory handling and creation capabilities
+- **Log Persistence**: Added ability to save and manage console logs for better debugging experience
+
+### Changed
+- **Improved Syntax Highlighting**: Enhanced C# syntax highlighting performance and reliability
+- **UI Scroll Behavior**: Major improvements to scrolling behavior, eliminated unwanted jumps and enhanced smooth scrolling
+- **Model Interface Optimization**: Refined model interface communication with better error handling and response processing
+- **Configuration Management**: Enhanced configuration system with improved settings persistence
+- **Code Organization**: Better separation of concerns with UI helper functions moved to dedicated classes
+
+### Fixed
+- **UI Scroll Jumps**: Resolved issues with unexpected UI scrolling and jumping behavior
+- **Syntax Highlighting Glitches**: Fixed various syntax highlighting rendering issues
+- **Log Display**: Improved log display consistency and reliability
+- **Multiple File Operations**: Enhanced handling of multiple file operations and directory management
+- **UI Responsiveness**: Fixed various UI responsiveness issues during intensive operations
+
+### Technical Improvements
+- Enhanced logging architecture with structured log entries
+- Improved code maintainability through better class organization
+- Better error handling and debugging capabilities
+- Optimized UI rendering performance
+- Enhanced Unity editor integration stability
+
 ## [1.1.2] - 2025-07-03
 
 ### Added
