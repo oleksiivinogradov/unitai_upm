@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.4] - 2025-07-09
+
+### Added
+- **Drag & Drop GameObject Support**: Revolutionary new feature allowing GameObjects to be dragged directly from the Hierarchy into the chat input, automatically inserting their scene paths for precise AI assistance
+- **SVG File Display Support**: Added native support for viewing and displaying SVG files within the interface
+- **Advanced Documentation Search**: Integrated Lucene.NET search engine for powerful Unity documentation indexing and retrieval capabilities
+- **Screenshot Integration**: Enhanced screenshot capture functionality with better file management and attachment workflow
+
+### Changed
+- **Increased System Limits**: Significantly increased various system limits for better performance with larger projects and files
+- **Enhanced File Management**: Improved file processing, validation, and error handling across all file operations
+- **UI Responsiveness Improvements**: Better handling of drag-and-drop events and visual feedback during file operations
+- **Copy Functionality Enhancements**: Improved copy operations and file duplication handling
+- **Input Area Enhancements**: Better text input handling with improved focus management and caret positioning
+- **Performance Optimizations**: Optimized file processing and UI rendering for better responsiveness with large file sets
+
+### Fixed
+- **File Removal Operations**: Resolved issues with file removal and cleanup operations
+- **Drag & Drop Edge Cases**: Fixed various edge cases in drag-and-drop functionality and event handling
+- **Focus Management**: Improved text input focus handling during streaming operations and user interactions
+- **Memory Management**: Better cleanup of temporary files and cached data during file operations
+- **UI Layout Issues**: Fixed various layout and positioning issues in the file attachment areas
+
+### Technical Improvements
+- **Fast index Integration**: Complete integration fast index for advanced search and indexing capabilities
+- **Enhanced File Processing Pipeline**: Redesigned file processing architecture for better reliability and performance
+- **Improved Event Handling**: Better separation of drag-and-drop events for different UI areas
+- **Code Organization**: Better modularization of file management and UI helper functions
+- **Unity Compatibility**: Enhanced compatibility across different Unity versions with better feature detection
+
 ## [1.1.3] - 2025-07-05
 
 ### Added
