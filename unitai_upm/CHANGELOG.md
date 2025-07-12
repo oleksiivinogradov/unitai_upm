@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.5] - 2025-07-10
+
+### Added
+- **Enhanced GameObject Search**: Added support for limiting GameObject searches to specific hierarchy paths for more precise results
+- **File Move Operations**: Enhanced file move operations with improved destination directory handling
+
+### Changed
+- **Production API Configuration**: Switched back to production API configuration from local development environment
+- **Improved SVG File Detection**: Enhanced SVG file detection to support both XML and SVG language types for better file handling
+- **Unity 2022 Compatibility**: Added specific compatibility fixes for Unity 2022 toolbar display issues
+
+### Fixed
+- **SVG Rendering**: Fixed SVG file detection and rendering with improved language type recognition
+- **Unity Version Compatibility**: Resolved toolbar display issues specifically affecting Unity 2022 users
+- **GameObject Hierarchy Search**: Improved accuracy of GameObject search operations with path-based filtering
+
+### Technical Improvements
+- Enhanced model interface with improved search and move operation capabilities
+- Improved UI helper functions with better cross-Unity version compatibility
+- Refined configuration management for production deployment
+
 ## [1.1.4] - 2025-07-09
 
 ### Added
