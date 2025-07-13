@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.6] - 2025-07-13
+
+### Added
+- **Scene View Camera Control**: Added the ability for the AI to programmatically control the Scene View camera, enabling actions like panning, zooming, and rotating to focus on specific objects or areas.
+
+### Changed
+- **Performance Tuning**: Significantly improved performance of the asset post-processor by optimizing background thread usage for embedding updates.
+
+### Fixed
+- **Index Stats Display**: Resolved an issue where documentation index statistics were not correctly loaded and displayed in the configuration window.
+
 ## [1.1.5] - 2025-07-10
 
 ### Added
