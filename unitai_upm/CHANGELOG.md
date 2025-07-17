@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.7] - 2025-07-17
+
+### Added
+- **AI Instruction Management**: New update instructions feature allows the AI to dynamically update user instructions, enabling more adaptive and personalized assistance workflows
+- **Directory Move Operations**: Enhanced file operations with support for moving entire directories , providing more comprehensive project restructuring capabilities
+- **Automatic Instructions Attachment**: Intelligent auto-detection and attachment of `Assets/UnitAI/instructions.md` file with sophisticated placeholder content detection
+
+### Changed
+- **Improved Asset Processing**: Enhanced asset postprocessor with better logging, improved error handling, and more robust project-relative path normalization using Uri-based resolution
+- **Permanent File Attachment Logic**: Refined permanent file attachment system with better handling of conversation switching and new conversation creation
+
+### Fixed
+- **Parse Error Handling**: Resolved various parsing errors in command processing, improving reliability of AI command execution
+- **File Deletion Processing**: Enhanced file deletion handling in asset postprocessor with better error logging and cleanup
+- **Path Resolution Issues**: Fixed path handling edge cases in asset processing, particularly for projects with spaces in directory names
+
+### Technical Improvements
+- Enhanced project embedding service integration with improved file removal tracking
+- Better error logging and debugging capabilities throughout the asset processing pipeline
+- Improved memory management and cleanup in background processing tasks
+- More robust conversation state management during file attachment operations
+
 ## [1.1.6] - 2025-07-13
 
 ### Added
