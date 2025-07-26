@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.8] - 2025-07-25
+
+### Added
+- **AI-Powered Settings Management**: New capability for the AI to manage and update Unity project and build settings programmatically, enabling more autonomous configuration adjustments.
+- **Directory Move Tracking**: The project index now correctly updates all file paths when an entire directory is moved, ensuring index consistency.
+
+### Changed
+- **Thread-Safe File Indexing**: Implemented locking to prevent race conditions when multiple file updates are processed concurrently.
+- **JSON Payload Escaping**: Improved JSON serialization to handle a wider range of special characters and control codes, increasing reliability of API communications.
+
+### Fixed
+- **Property Setting Errors**: Added detailed error messages for failures when setting component properties or fields, improving debuggability.
+- **GameObject Creation**: Resolved issues with creating and parenting new GameObjects within complex nested hierarchies.
+
 ## [1.1.7] - 2025-07-17
 
 ### Added
