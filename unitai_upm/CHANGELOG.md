@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.9] - 2025-08-16
+
+### Added
+- **Play Mode Recorder**: Record and replay runtime input events from the Editor.
+- **Editor UI Controls**: New Rec/Play controls and a recordings list integrated into `UnitAIWindow` near the font size buttons.
+- **Lists in UI**: Added scenes and recordings lists for quick selection and playback.
+
+### Changed
+- **Playback Timing**: Improved timing/ordering to make recording replay more consistent and reliable.
+- **Recording Naming**: Refined numbering/naming of recordings for clarity.
+- **UI Feedback/Placement**: Adjusted placement and status messages for Play/Record controls.
+
+### Fixed
+- **Play Mode Recording Reliability**: Fixed issues that caused missed or mis-ordered events during recording.
+- **Stop/Play Flow**: Resolved inconsistencies when stopping playback and ensured clean state transitions.
+- **General Stability**: Multiple fixes and refinements to stabilize the first recorder iteration.
+
+### Technical Improvements
+- **Recorder Integration**: Integrated recorder data types and flow into the existing 1.1.8 codebase.
+- **Minor Revisions**: Internal revisions and timing tweaks for smoother operation.
+
 ## [1.1.8] - 2025-07-25
 
 ### Added
