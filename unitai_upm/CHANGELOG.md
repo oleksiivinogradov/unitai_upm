@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2025-08-20
+
+### Added
+- **Shell Command Runner**: Run shell commands directly from the Editor with an integrated UI, including live output streaming and completion status.
+- **Shell Output Viewer**: Rich output panel with improved syntax highlighting and scrolling, supporting long-running command streams.
+- **File Drag & Drop to Chat**: Drop files into the chat/input to quickly attach or inline content for the AI.
+- **Improved GameObject Reading**: Faster, more reliable scene object inspection with better hierarchy traversal and property extraction.
+- **UI Elements Framework**: New UI helpers/components for consistent layouts and interactions across the Editor window.
+- **Movement Adapters**: Added universal/virtual movement adapters to standardize interaction handling.
+- **Legacy Input Interception**: Capture and route legacy input during Play Mode for better recording coverage.
+
+### Changed
+- **Play Mode Recorder**: More robust event capture (including click interactions), improved timing, and cleaner start/stop flows.
+- **Syntax Highlighting**: Significant improvements and optimizations to C# and command output rendering.
+- **Editor Window UI**: Updated layout to integrate shell actions, file drop, and recorder controls with clearer feedback.
+- **Model Interface**: Extended with new commands and safer execution paths, with clearer error reporting.
+
+### Fixed
+- **Recorder Stability**: Addressed missed/misordered events and edge cases during long sessions and stop/play transitions.
+- **Drag-and-Drop Reliability**: Improved handling of large files and complex hierarchy reads when attaching content.
+- **General Polish**: Numerous bug fixes and refinements across UI and background operations.
+
+### Technical Improvements
+- **Internal Refactors**: Major refactors of UI and rendering components for performance and maintainability.
+- **Shell Workflow Integration**: New structured prompts and command handlers for consistent shell execution flows.
+- **Package Metadata**: Updated package/version metadata and rebuilt Editor precompiled DLL.
+
 ## [1.1.9] - 2025-08-16
 
 ### Added
