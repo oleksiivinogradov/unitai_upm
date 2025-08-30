@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.1] - 2025-08-30
+
+### Added
+- **Internet Requests Command**: New command to fetch web pages or perform internet search queries directly from the agent with capped, cleaned text output and link preservation.
+- **Collections Update Support**: Extended component property updates to support collection mutations (dictionary key assignment and list/array append) and simple object-literal construction for complex values.
+- **Object Value Renderer**: Utility to render complex objects, dictionaries, and enumerables in readable, truncated form for logs and responses.
+- **Emoji-based Thought Labels**: Context-aware emoji/text labels for model “thinking” indicators across Unity versions.
+
+### Changed
+- **GameObject Read Improvements**: More accurate component filtering (namespace-aware matching), targeted reads via explicit requests, and additional script file path hints for custom components. Supports summary, hierarchy, and full response modes.
+- **Shell Command Runner**: Clearer diagnostics for non-executable scripts on macOS/Linux and Windows, improved environment variable handling, better working directory handling, and richer result formatting.
+- **Proxy Chat Request**: Updated proxy chat request format with system_instruction and parameter injection for Imagen models (aspect ratio, person generation). Uses user API key for proxy auth.
+
+### Fixed
+- **Search Reliability**: Regex normalization and component name filtering fixes in scene object search.
+- **Playback Command**: Sequential playback of selected recordings, proper timeouts, and improved logging.
+
+### Technical
+- **Project File**: Updated project to include new editor commands and helpers (internet request, collections helpers, object value renderer, emoji helper).
+- **Packaging**: UPM metadata updated; precompiled Editor DLL rebuilt.
+
 ## [1.2.0] - 2025-08-20
 
 ### Added
